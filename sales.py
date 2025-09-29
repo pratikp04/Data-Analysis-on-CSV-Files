@@ -32,7 +32,7 @@ plt.ylabel("Sales")
 plt.show()
 
 sales_by_region.plot(kind="pie", autopct='%1.1f%%', figsize=(6,6), title="Sales Distribution by Region")
-plt.ylabel("")  # remove y-axis label for pie chart
+plt.ylabel("") 
 plt.show()
 
 df["Date"] = pd.to_datetime(df["Date"])
